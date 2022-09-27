@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "499608323607",
+    "project_id": "frform-37ee9",
+    "storage_bucket": "frform-37ee9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499608323607:android:de2e279daeca6a10befe52",
+        "android_client_info": {
+          "package_name": "com.example.frf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499608323607-05jiioqvvcj9ongb5dcn02cihoaeetp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ-QHPxXJ65bXZ_OBk9eJJbvGcUqz0hos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499608323607-05jiioqvvcj9ongb5dcn02cihoaeetp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

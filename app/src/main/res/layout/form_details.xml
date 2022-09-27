@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    app:cardElevation="2dp"
+    app:contentPadding="5sp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="361dp"
+        android:layout_height="275dp">
+
+
+        <TextView
+            android:id="@+id/dateid"
+            android:layout_width="150dp"
+            android:textColor="#1C36C5"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:text="DATE :"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/dateid1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="61dp"
+            android:layout_toRightOf="@id/dateid"
+            android:padding="5sp"
+            android:text="17/02/2022"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fromid"
+            android:layout_width="150dp"
+            android:textColor="#1C36C5"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dateid"
+            android:padding="5sp"
+            android:text="FROM :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fromid1"
+            android:layout_width="150dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/dateid"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="61dp"
+            android:layout_toRightOf="@+id/fromid"
+            android:padding="5sp"
+            android:text="Bangalore"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/toid"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fromid"
+            android:padding="5sp"
+            android:text="TO :"
+            android:textColor="#1C36C5"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/toid1"
+            android:layout_width="150dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/fromid"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="61dp"
+            android:layout_toRightOf="@+id/toid"
+            android:padding="5sp"
+            android:text="Chennai"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/purposeid"
+            android:layout_width="150dp"
+            android:textColor="#1C36C5"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toid"
+            android:padding="5sp"
+            android:text="PURPOSE :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/purposeid1"
+
+            android:layout_width="150dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/toid"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="61dp"
+            android:layout_toRightOf="@+id/purposeid"
+            android:padding="5sp"
+            android:text="Manufacture"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/kmsid"
+            android:layout_width="150dp"
+            android:textColor="#1C36C5"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/purposeid"
+            android:padding="5sp"
+            android:text="KMS :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/kmsid1"
+            android:layout_width="150dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/purposeid"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="61dp"
+            android:layout_toRightOf="@+id/kmsid"
+            android:padding="5sp"
+            android:text="10"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/advanceid"
+            android:layout_width="150dp"
+            android:textColor="#1C36C5"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kmsid"
+            android:padding="5sp"
+            android:text="ADVANCE :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/advanceid1"
+            android:layout_width="150dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/kmsid"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="61dp"
+            android:layout_toRightOf="@+id/advanceid"
+            android:padding="5sp"
+            android:text="15000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/balanceid"
+            android:layout_width="150dp"
+            android:textColor="#1C36C5"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/advanceid"
+            android:padding="5sp"
+            android:text="BALANCE :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/balanceid1"
+            android:layout_width="150dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/advanceid"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="61dp"
+            android:layout_toRightOf="@+id/balanceid"
+            android:padding="5sp"
+            android:text="45000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="36dp"
+            android:layout_height="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="243dp"
+            app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="36dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="242dp"
+            app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
